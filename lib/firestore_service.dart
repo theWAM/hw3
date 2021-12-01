@@ -39,7 +39,7 @@ class UserEX {
   });
 
   factory UserEX.fromMap(String id, Map<String, dynamic> data) {
-    return UserEX(id: id, picture: data['picture'], name: data['display_name']);
+    return UserEX(id: id, picture: data['imageURL'], name: data['display_name']);
   }
 
   final String id;
